@@ -19,10 +19,14 @@
     --fonte-valores: 'Fraunces', serif;
 }
 
+body {
+    background-color: var(--Cream);
+}
+
 .container {
-    width: 100vw;
+    width: 97vw;
     height: 100vh;
-    background-color: hsl(30, 38%, 92%);
+    background-color: var(--Cream);
     position: relative;
 }
 
@@ -113,6 +117,20 @@ h1 {
 .button:hover {
     transition: 0.5s;
     background-color: var(--Very-dark-blue);
+}
+
+footer {
+    font-family: --fonte-padrao;
+    text-align: center;
+    color: var(--Cream);
+    background-color: var(--Dark-cyan);
+    padding: 5px;
+}
+
+footer a {
+    font-size: 0.9em;
+    color: var(--Cream);
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
